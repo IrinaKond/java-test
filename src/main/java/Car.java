@@ -22,7 +22,7 @@ public class Car {
 
     public int Accelerate(int velocity){
         currentVelocity = currentVelocity + velocity;
-        System.out.println("Velocity: " + currentVelocity);
+        System.out.println("New Velocity: " + currentVelocity);
         return currentVelocity;
     }
 
